@@ -20,3 +20,6 @@ set6={1,2,3,4,5,6,7}
 set6.add((67,78,98))
 print(set6) #tuples can add because they are immutable
            #list can not add becausse they are mutable
+set7={1,2,3,4}
+set7.add(5)
+print(set7)

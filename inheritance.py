@@ -1,3 +1,4 @@
+#simple hai papa and son
 class human:
     def eat(self):
         print("i want to eat")

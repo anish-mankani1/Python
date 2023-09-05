@@ -31,3 +31,10 @@ for i in phone_no:
     phone_no2=phone_no.copy()
     print(phone_no2)
     print(len(phone_no))
+    d1={"anish":"1","hemant":"2",}
+    d1["rohit"]="4"
+    print(d1)
+    d2=d1.copy()
+    #del d2["anish"]#because of this we use .copy() function
+    del d2["anish"]#in this case anish is deleted from d3
+    print(d1)

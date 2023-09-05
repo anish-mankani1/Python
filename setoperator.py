@@ -14,3 +14,4 @@ set5={'jenny','jiya','aakash'}
 set6={'ankur','prateek'}
 print(set4.intersection(set5)) #intersection will print only repeated value
 print(set4.intersection(set5,set6))#it will give only empty set
+#kuch hai hi nahi common

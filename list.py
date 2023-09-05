@@ -39,3 +39,5 @@ print(number)
 #it will also remove p[articular elemnet
 number.pop(11)
 print(number)
+c=[1,2,3,4,5]
+print(c[1:5:-1])
