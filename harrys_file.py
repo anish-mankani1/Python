@@ -1,9 +1,12 @@
 f=open("harry.txt","r")
 #it will first print only first line then again if we right it will print next line 
-#print(f.readline())
-#print(f.readline())
+print(f.readline())
+print(f.readline())
 #it willl make list of text 
-print(f.readlines())
+#print(f.readlines())
+#content=f.read()
+#print(content)
+#f.close()
 
 
 #we can use for loop 

@@ -9,6 +9,8 @@ def add(a,*number,name):#normal,arbitary,keyword argument ek saath yeh hi order 
      c=c+i
     print(c)
 add(5,6,7,name="jennny")
+
+
 #**kwargs is a keyword argument      #we can choose any  name
 def person(**kwags):
    for key,value in kwags.items():#aise hi access hoga

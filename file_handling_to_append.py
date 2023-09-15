@@ -6,4 +6,5 @@ f1=open("file_4","a")#it will create new file
 f1.write("hello student")
 f2=open("file_2","a")
 f2.write("hello anish")#it will also add in another file
-f1.read()#it will give error it will only use to write in append mode
+#f1.read()#it will give error it will only use to write in append mode
+f3=open("file_5","a")
