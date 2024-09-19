@@ -12,6 +12,7 @@ operation={
     "*":multiply,
     "/":divide
 }
+print(operation["+"])
 first_number=int(input("enter first number"))
 for symbol in operation:
     print(symbol)
@@ -19,4 +20,4 @@ operator=input("enter the operator")
 second_number=int(input("enter second number"))
 calculator=operation[operator]
 output=calculator(first_number,second_number)
-print(f"the first_number is{first_number} and second_number is{second_number}and operator is {operator} and result is {output}")
+print(f"the first_number is {first_number} and second_number isv{second_number}vand operator is {operator} and result is {output}")

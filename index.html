@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: pink;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: blue;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(156, 156, 228);
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 140px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            width: 90%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(123, 40, 201);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(154, 154, 240);
+        }
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box{
+            background-color: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondsection .vertical{
+          height: 93px;
+          width: 1px;
+          background-color: white;
+          margin: 0 120px;
+        }
+        .image-top{
+            width: 24px;
+           position: relative;
+           top: -32px;
+            left: -9px;
+
+        }
+        .vertical-title{
+            position: relative;
+            top:75px;
+            width: 150px;
+
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Anish 's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi my name is
+                <span class="purple">Anish</span>
+                <div>and i am a passionate</div>
+                <div>developer</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="1.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="textgray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="OIP.jpeg" alt="">
+                    <div class="vertical-title">
+                        HTML developer(2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        dhvbffhvdfvlegejghejghejgehgjeghekjgheg
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="OIP.jpeg" alt="">
+                    <div class="vertical-title">
+                        HTML developer(2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        dhvbffhvdfvlegejghejghejgehgjeghekjgheg
+                    </div>
+                    
+                </div>
+                <div class="vertical"></div>
+                
+            </div>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Developer', 'Data Scientist', 'Web Developer',],
+            typeSpeed: 40,
+        });
+    </script>
+
+</body>
+
+</html>

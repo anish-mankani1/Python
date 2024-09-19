@@ -10,4 +10,6 @@ def sum(no):
     else:
         print("not a prime number")  
 sum(5)
+
+
    
