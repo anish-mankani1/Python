@@ -4,6 +4,8 @@ root.geometry("744x133")
 root.title("My GUI With Harry")
 
 
+
+
 title_label = Label(text ='''
 Abdul Rashid Salim Salman Khan is an Indian 
 \nfilm actor, producer, occasional playback singer and television personality. In a film career spanning 
@@ -14,3 +16,4 @@ Abdul Rashid Salim Salman Khan is an Indian
 nthe highest ranked Indian with 82nd rank with earnings of $37.7 million.''', bg ="red", fg="white", padx=13, pady=94, font="comicsansms 9 bold", borderwidth=3, relief=SUNKEN)
 
 title_label.pack()
+root.mainloop()
